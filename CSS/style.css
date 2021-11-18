@@ -26,8 +26,31 @@ main{
     background-color: aquamarine;
 }
 
+.container-square{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    background-color: lightblue;
+}
+
 /* debug */
 
-.debug main{
+/* .debug main{
     height: 500px;
-}
+} */
