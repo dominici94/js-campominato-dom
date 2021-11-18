@@ -23,12 +23,12 @@ header{
 
 /* main */
 main{
-    background-color: aquamarine;
+    background-color:skyblue;
 }
 
 .container-square{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
     border: 2px solid black;
     display: flex;
@@ -45,8 +45,12 @@ main{
     align-items: center;
 }
 
-.color{
-    background-color: lightblue;
+.safe{
+    background-color: lightgreen;
+}
+
+.bomba{
+    background-color: red;
 }
 
 /* debug */
