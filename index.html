@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Boolean Campo Minato</title>
 </head>
-<body>
-    
+<body class="debug">
+    <!-- header che contiene la scelta della difficoltà, l'avvio del gioco e il titolo -->
+    <header>
+        <div class="container">
+            <h1>Boolean Campo Minato</h1>
+            <div class="toolbar">
+                <label for="level">Difficoltà: </label>
+                <select name="" id="level">
+                    <option value="1">Facile</option>
+                    <option value="2">Intermedio</option>
+                    <option value="3">Difficile</option>
+                </select>
+                <button id="play">Inizia</button>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <div class="container-square"></div>
+    </main>
 
     <script src="js/myscript.js"></script>
 </body>
